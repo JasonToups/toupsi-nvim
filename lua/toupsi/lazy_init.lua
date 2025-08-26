@@ -12,15 +12,15 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    spec = "theprimeagen.lazy",
+    spec = "toupsi.lazy",
     change_detection = { notify = false }
 })
 --[[
 require("lazy").setup({
   use("~/personal/harpoon")
 
-  use("theprimeagen/vim-be-good")
-  use("theprimeagen/refactoring.nvim")
+  use("toupsi/vim-be-good")
+  use("toupsi/refactoring.nvim")
   --use("nvim-treesitter/nvim-treesitter-context");
 
   use {

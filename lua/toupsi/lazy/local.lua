@@ -32,8 +32,8 @@ local M = {
     { "nvim-neotest/nvim-nio" },
 }
 
--- import user plugins from theprimeagen/plugins.lua (returns a list)
-local ok, user = pcall(require, "theprimeagen.plugins")
+-- import user plugins from toupsi/plugins.lua (returns a list)
+local ok, user = pcall(require, "toupsi.plugins")
 if ok and type(user) == "table" then
   for _, spec in ipairs(user) do
     table.insert(M, spec)
